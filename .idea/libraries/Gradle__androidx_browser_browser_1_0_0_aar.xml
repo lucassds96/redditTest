@@ -2,10 +2,14 @@
   <library name="Gradle: androidx.browser:browser:1.0.0@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/926b80e1646bf17fd2151454de4a7d6e/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cea1724e49fc49f096228287b1c337c6/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/926b80e1646bf17fd2151454de4a7d6e/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/926b80e1646bf17fd2151454de4a7d6e/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cea1724e49fc49f096228287b1c337c6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cea1724e49fc49f096228287b1c337c6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cea1724e49fc49f096228287b1c337c6/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
