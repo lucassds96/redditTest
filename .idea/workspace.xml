@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
@@ -12,13 +17,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/teste_android_reddit.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/teste_android_reddit.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fastnews/repository/PostRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fastnews/repository/PostRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fastnews/service/model/PostResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fastnews/service/model/PostResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fastnews/ui/timeline/TimelineAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fastnews/ui/timeline/TimelineAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fastnews/ui/timeline/TimelineFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fastnews/ui/timeline/TimelineFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fastnews/ui/timeline/TimelineItemViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fastnews/ui/timeline/TimelineItemViewHolder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fastnews/viewmodel/PostViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fastnews/viewmodel/PostViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/timeline/layout/include_item_timeline_thumbnail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/timeline/layout/include_item_timeline_thumbnail.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +49,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -48,6 +66,9 @@
     <option name="height" value="743" />
   </component>
   <component name="ProjectId" id="1z97Glspj4B578wgz5D7Wyh6d4C" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -148,18 +169,30 @@
       <option name="project" value="LOCAL" />
       <updated>1633548869054</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding compile option to compile project">
+      <created>1633550200914</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633550200914</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup config" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup config" />
+    <MESSAGE value="adding compile option to compile project" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding compile option to compile project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="25" key="CommitChangelistDialog2" timestamp="1633548868720">
+    <state x="0" y="25" key="CommitChangelistDialog2" timestamp="1633550200500">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state x="0" y="25" key="CommitChangelistDialog2/0.25.1440.818@0.25.1440.818" timestamp="1633548868720" />
+    <state x="0" y="25" key="CommitChangelistDialog2/0.25.1440.818@0.25.1440.818" timestamp="1633550200500" />
+    <state x="100" y="125" width="1240" height="618" key="DiffContextDialog" timestamp="1633550689222">
+      <screen x="0" y="25" width="1440" height="818" />
+    </state>
+    <state x="100" y="125" width="1240" height="618" key="DiffContextDialog/0.25.1440.818@0.25.1440.818" timestamp="1633550689222" />
     <state width="1398" height="167" key="GridCell.Tab.0.bottom" timestamp="1633548403485">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
@@ -176,10 +209,10 @@
       <screen x="0" y="25" width="1440" height="818" />
     </state>
     <state width="1398" height="167" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1633548403485" />
-    <state x="320" y="171" key="Vcs.Push.Dialog.v2" timestamp="1633548872067">
+    <state x="320" y="171" key="Vcs.Push.Dialog.v2" timestamp="1633550202991">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.25.1440.818@0.25.1440.818" timestamp="1633548872067" />
+    <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.25.1440.818@0.25.1440.818" timestamp="1633550202991" />
     <state x="513" y="327" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1633548825065">
       <screen x="0" y="25" width="1440" height="818" />
     </state>

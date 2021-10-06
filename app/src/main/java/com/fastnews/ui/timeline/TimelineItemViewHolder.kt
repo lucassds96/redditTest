@@ -4,6 +4,7 @@ import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.text.TextUtils
 import android.view.View
+import androidx.core.text.HtmlCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.fastnews.mechanism.TimeElapsed
@@ -45,21 +46,23 @@ class TimelineItemViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
     }
 
     private fun populateThumbnail(value: PostData?) {
-        value?.thumbnail.let {
 
-            val PREFIX_HTTP = "http"
+        val PREFIX_HTTP = "http"
 
-            if (!TextUtils.isEmpty(it) && it!!.startsWith(PREFIX_HTTP)) {
+        value?.preview?.images?.first()?.let {
+
+            if (!TextUtils.isEmpty(it.source.url) && it.source.url.startsWith(PREFIX_HTTP)) {
                 Glide.with(view.item_timeline_thumbnail.context)
-                    .load(it)
+                    .load(HtmlCompat.fromHtml(it.source.url, HtmlCompat.FROM_HTML_MODE_LEGACY).toString())
                     .placeholder(ColorDrawable(Color.LTGRAY))
+                    .fitCenter()
                     .error(ColorDrawable(Color.DKGRAY))
                     .into(view.item_timeline_thumbnail)
                 view.item_timeline_thumbnail.visibility = View.VISIBLE
             } else {
                 view.item_timeline_thumbnail.visibility = View.GONE
             }
-        }
+        }?: kotlin.run { view.item_timeline_thumbnail.visibility = View.GONE }
     }
 
     private fun populateTime(value: PostData?) {

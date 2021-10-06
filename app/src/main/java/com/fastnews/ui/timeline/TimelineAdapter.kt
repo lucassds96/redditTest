@@ -10,11 +10,13 @@ import kotlinx.android.synthetic.main.include_item_timeline_thumbnail.view.*
 
 class TimelineAdapter(val onClickItem: (PostData, ImageView) -> Unit) : RecyclerView.Adapter<TimelineItemViewHolder>() {
 
-    var items: List<PostData> = emptyList()
+    var items: MutableList<PostData> = mutableListOf()
 
     fun setData(items: List<PostData>) {
-        this.items = items
-        notifyDataSetChanged()
+        val size = this.items.size
+        this.items.addAll(items)
+        val newSize = this.items.size
+        notifyItemRangeChanged(size, newSize)
     }
 
     override fun getItemCount(): Int = items.size

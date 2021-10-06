@@ -15,6 +15,8 @@ import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.fastnews.R
 import com.fastnews.mechanism.VerifyNetworkInfo
+import com.fastnews.service.model.NewPost
+import com.fastnews.service.model.PostChildren
 import com.fastnews.service.model.PostData
 import com.fastnews.ui.detail.DetailFragment.Companion.KEY_POST
 import com.fastnews.viewmodel.PostViewModel
@@ -23,6 +25,8 @@ import kotlinx.android.synthetic.main.include_state_without_conn_timeline.*
 
 
 class TimelineFragment : Fragment() {
+
+    private var isLoading: Boolean = false
 
     private val viewModel: PostViewModel by lazy {
         ViewModelProviders.of(this).get(PostViewModel::class.java)
@@ -75,15 +79,27 @@ class TimelineFragment : Fragment() {
             onClickItem(it, imageView)
         }
 
+        val layoutManager = LinearLayoutManager(context)
         timeline_rv.layoutManager = LinearLayoutManager(context)
         timeline_rv.itemAnimator = DefaultItemAnimator()
         timeline_rv.adapter = adapter
+
+        timeline_rv.addOnScrollListener(object : PagginationScroll(layoutManager) {
+            override fun isLoading(): Boolean {
+                return isLoading
+            }
+
+            override fun loadMoreItems() {
+                isLoading = true
+                fetchTimeline()
+            }
+        })
     }
 
     private fun fetchTimeline() {
-        viewModel.getPosts("", 50).observe(this, Observer<List<PostData>> { posts ->
+        viewModel.getPosts("", 20).observe(viewLifecycleOwner, Observer<NewPost> { posts ->
             posts.let {
-                adapter.setData(posts)
+                adapter.setData(it.listPostData)
                 hideProgress()
                 showPosts()
             }

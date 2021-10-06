@@ -7,14 +7,15 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.fastnews.mechanism.Coroutines
 import com.fastnews.repository.PostRepository
+import com.fastnews.service.model.NewPost
 import com.fastnews.service.model.PostData
 
 class PostViewModel(application: Application) : AndroidViewModel(application) {
 
-    private lateinit var posts: MutableLiveData<List<PostData>>
+    private lateinit var posts: MutableLiveData<NewPost>
 
     @UiThread
-    fun getPosts(after: String, limit: Int): LiveData<List<PostData>> {
+    fun getPosts(after: String, limit: Int): MutableLiveData<NewPost> {
             if (!::posts.isInitialized) {
                 posts = MutableLiveData()
 
