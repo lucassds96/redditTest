@@ -11,6 +11,24 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d41bfc38-2f2f-4884-9914-229de7f20597" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
@@ -23,13 +41,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fastnews/repository/PostRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fastnews/repository/PostRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fastnews/service/model/PostResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fastnews/service/model/PostResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fastnews/ui/timeline/TimelineAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fastnews/ui/timeline/TimelineAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fastnews/ui/timeline/TimelineFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fastnews/ui/timeline/TimelineFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fastnews/ui/timeline/TimelineItemViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fastnews/ui/timeline/TimelineItemViewHolder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fastnews/viewmodel/PostViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fastnews/viewmodel/PostViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/timeline/layout/include_item_timeline_thumbnail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/timeline/layout/include_item_timeline_thumbnail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fastnews/ui/detail/DetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fastnews/ui/detail/DetailFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/detail/layout/include_detail_post_header.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/detail/layout/include_detail_post_header.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +88,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-view/Users/lucassilva/AndroidStudioProjects/teste_android_reddit/app/src/main/java/com/fastnews/mechanism/FontTextView.kt_SELECTED" value="FontTextView" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -176,19 +190,46 @@
       <option name="project" value="LOCAL" />
       <updated>1633550200914</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding paggination and preview images from api">
+      <created>1633563304180</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633563304180</updated>
+    </task>
+    <task id="LOCAL-00004" summary="solving images quality">
+      <created>1633565618044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633565618044</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup config" />
     <MESSAGE value="adding compile option to compile project" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding compile option to compile project" />
+    <MESSAGE value="adding paggination and preview images from api" />
+    <MESSAGE value="solving images quality" />
+    <option name="LAST_COMMIT_MESSAGE" value="solving images quality" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="25" key="CommitChangelistDialog2" timestamp="1633550200500">
+    <state x="0" y="25" key="CommitChangelistDialog2" timestamp="1633565617449">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state x="0" y="25" key="CommitChangelistDialog2/0.25.1440.818@0.25.1440.818" timestamp="1633550200500" />
+    <state x="0" y="25" key="CommitChangelistDialog2/0.25.1440.818@0.25.1440.818" timestamp="1633565617449" />
     <state x="100" y="125" width="1240" height="618" key="DiffContextDialog" timestamp="1633550689222">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
@@ -209,10 +250,18 @@
       <screen x="0" y="25" width="1440" height="818" />
     </state>
     <state width="1398" height="167" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1633548403485" />
-    <state x="320" y="171" key="Vcs.Push.Dialog.v2" timestamp="1633550202991">
+    <state x="398" y="140" key="RollbackChangesDialog" timestamp="1633565589537">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.25.1440.818@0.25.1440.818" timestamp="1633550202991" />
+    <state x="398" y="140" key="RollbackChangesDialog/0.25.1440.818@0.25.1440.818" timestamp="1633565589537" />
+    <state x="320" y="171" key="Vcs.Push.Dialog.v2" timestamp="1633565620538">
+      <screen x="0" y="25" width="1440" height="818" />
+    </state>
+    <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.25.1440.818@0.25.1440.818" timestamp="1633565620538" />
+    <state x="421" y="189" width="597" height="490" key="find.popup" timestamp="1633565123861">
+      <screen x="0" y="25" width="1440" height="818" />
+    </state>
+    <state x="421" y="189" width="597" height="490" key="find.popup/0.25.1440.818@0.25.1440.818" timestamp="1633565123861" />
     <state x="513" y="327" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1633548825065">
       <screen x="0" y="25" width="1440" height="818" />
     </state>

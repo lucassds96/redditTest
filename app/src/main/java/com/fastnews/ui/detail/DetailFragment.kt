@@ -1,5 +1,6 @@
 package com.fastnews.ui.detail
 
+import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
@@ -30,6 +31,7 @@ import kotlinx.android.synthetic.main.fragment_timeline.*
 import kotlinx.android.synthetic.main.include_detail_post_thumbnail.*
 import kotlinx.android.synthetic.main.include_detail_post_title.*
 import kotlinx.android.synthetic.main.include_item_timeline_ic_score.*
+import kotlinx.android.synthetic.main.include_item_timeline_ic_share.*
 import kotlinx.android.synthetic.main.include_item_timeline_thumbnail.view.*
 import kotlinx.android.synthetic.main.include_item_timeline_timeleft.*
 
@@ -79,6 +81,7 @@ class DetailFragment : Fragment() {
         buildOnClickDetailThumbnail()
         populateScore()
         verifyConnectionState()
+        shareNews()
     }
 
     private fun verifyConnectionState() {
@@ -207,5 +210,19 @@ class DetailFragment : Fragment() {
             android.R.id.home -> findNavController().navigateUp()
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    private fun  shareNews() {
+        val url = post?.url
+        item_timeline_bt_share.setOnClickListener {
+
+            val sendIntent: Intent = Intent().apply {
+                action = Intent.ACTION_SEND
+                putExtra(Intent.EXTRA_TEXT, url)
+                type = "text/plain"
+            }
+            val shareIntent = Intent.createChooser(sendIntent, null)
+            startActivity(shareIntent)
+        }
     }
 }

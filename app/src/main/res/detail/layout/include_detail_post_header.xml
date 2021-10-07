@@ -37,6 +37,13 @@
             <include layout="@layout/include_header_detail_post_comments" />
 
             <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/light_gray" />
+
+            <include layout="@layout/include_item_timeline_ic_share" />
+
+            <View
                 android:layout_width="1dp"
                 android:layout_height="match_parent"
                 android:background="@color/light_gray" />
