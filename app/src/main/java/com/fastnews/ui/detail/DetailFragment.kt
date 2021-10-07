@@ -1,5 +1,7 @@
 package com.fastnews.ui.detail
 
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.text.TextUtils
 import android.transition.TransitionInflater
@@ -8,8 +10,10 @@ import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.text.HtmlCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
@@ -26,6 +30,7 @@ import kotlinx.android.synthetic.main.fragment_timeline.*
 import kotlinx.android.synthetic.main.include_detail_post_thumbnail.*
 import kotlinx.android.synthetic.main.include_detail_post_title.*
 import kotlinx.android.synthetic.main.include_item_timeline_ic_score.*
+import kotlinx.android.synthetic.main.include_item_timeline_thumbnail.view.*
 import kotlinx.android.synthetic.main.include_item_timeline_timeleft.*
 
 class DetailFragment : Fragment() {
@@ -37,7 +42,7 @@ class DetailFragment : Fragment() {
     private var post: PostData? = null
 
     private val commentViewModel: CommentViewModel by lazy {
-        ViewModelProviders.of(this).get(CommentViewModel::class.java)
+        ViewModelProvider(this).get(CommentViewModel::class.java)
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -161,28 +166,21 @@ class DetailFragment : Fragment() {
 
     private fun populateThumbnail() {
         val PREFIX_HTTP = "http"
-        var thumbnailUrl = ""
 
-        // TODO Fix high quality images
-        /*if(post?.preview != null) {
-            post?.preview?.images?.map {
-                if (!TextUtils.isEmpty(it.source.url)) {
-                    thumbnailUrl = it.source.url
-                }
+        post?.preview?.images?.first()?.let {
+
+            if (!TextUtils.isEmpty(it.source.url) && it.source.url.startsWith(PREFIX_HTTP)) {
+                Glide.with(item_detail_post_thumbnail.context)
+                    .load(HtmlCompat.fromHtml(it.source.url, HtmlCompat.FROM_HTML_MODE_LEGACY).toString())
+                    .placeholder(ColorDrawable(Color.LTGRAY))
+                    .fitCenter()
+                    .error(ColorDrawable(Color.DKGRAY))
+                    .into(item_detail_post_thumbnail)
+                item_detail_post_thumbnail.visibility = View.VISIBLE
+            } else {
+                item_detail_post_thumbnail.visibility = View.GONE
             }
-        }*/
-
-        if (!TextUtils.isEmpty(post?.thumbnail) && post?.thumbnail!!.startsWith(PREFIX_HTTP)) {
-            thumbnailUrl = post!!.thumbnail
-        }
-
-        if (!TextUtils.isEmpty(thumbnailUrl)) {
-            Glide.with(item_detail_post_thumbnail.context)
-                .load(thumbnailUrl)
-                .placeholder(R.drawable.ic_placeholder)
-                .into(item_detail_post_thumbnail)
-            item_detail_post_thumbnail.visibility = View.VISIBLE
-        }
+        }?: kotlin.run { item_detail_post_thumbnail.visibility = View.GONE }
     }
 
     private fun buildOnClickDetailThumbnail() {
