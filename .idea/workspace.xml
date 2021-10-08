@@ -39,10 +39,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/teste_android_reddit.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/teste_android_reddit.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fastnews/ui/detail/DetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fastnews/ui/detail/DetailFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/detail/layout/include_detail_post_header.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/detail/layout/include_detail_post_header.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,15 +94,38 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android-custom-view/Users/lucassilva/AndroidStudioProjects/teste_android_reddit/app/src/main/java/com/fastnews/mechanism/FontTextView.kt_SELECTED" value="FontTextView" />
+    <property name="android-custom-view/Users/lucassilva/Library/Android/sdk/sources/android-28/android/view/ViewGroup.java_SELECTED" value="ViewGroup" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1633548379267" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1633643808320" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.fastnews.ui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android JUnit.PostViewModelTest.givenServerResponse200_whenPostData_shouldReturnSuccess">
+    <configuration name="PostViewModelTest.givenServerResponse200_whenPostData_shouldReturnSuccess" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="teste_android_reddit.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fastnews.home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fastnews.home" />
+      <option name="MAIN_CLASS_NAME" value="com.fastnews.home.PostViewModelTest" />
+      <option name="METHOD_NAME" value="givenServerResponse200_whenPostData_shouldReturnSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -163,6 +191,219 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostDetailClickItemT... (1)" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="teste_android_reddit.app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.fastnews.ui.PostDetailClickItemTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchemePostDetailClic..." type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="teste_android_reddit.app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.fastnews.ui.SchemePostDetailClickItemTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimelineClickItemTest" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="teste_android_reddit.app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.fastnews.ui.TimelineClickItemTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="postDetailSareTest()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="teste_android_reddit.app" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="METHOD_NAME" value="postDetailSareTest" />
+      <option name="CLASS_NAME" value="com.fastnews.ui.PostDetailClickItemTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.PostViewModelTest.givenServerResponse200_whenPostData_shouldReturnSuccess" />
+        <item itemvalue="Android Instrumented Tests.PostDetailClickItemT... (1)" />
+        <item itemvalue="Android Instrumented Tests.postDetailSareTest()" />
+        <item itemvalue="Android Instrumented Tests.TimelineClickItemTest" />
+        <item itemvalue="Android Instrumented Tests.SchemePostDetailClic..." />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -204,7 +445,28 @@
       <option name="project" value="LOCAL" />
       <updated>1633565618044</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding share option on details news">
+      <created>1633567124422</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633567124422</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adding timeline click test ui">
+      <created>1633645643004</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633645643004</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding post detail click test ui">
+      <created>1633650392898</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633650392898</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,58 +479,81 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup config" />
     <MESSAGE value="adding compile option to compile project" />
     <MESSAGE value="adding paggination and preview images from api" />
     <MESSAGE value="solving images quality" />
-    <option name="LAST_COMMIT_MESSAGE" value="solving images quality" />
+    <MESSAGE value="adding share option on details news" />
+    <MESSAGE value="adding timeline click test ui" />
+    <MESSAGE value="adding post detail click test ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding post detail click test ui" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="25" key="CommitChangelistDialog2" timestamp="1633565617449">
+    <state x="374" y="240" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1633655217389">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state x="0" y="25" key="CommitChangelistDialog2/0.25.1440.818@0.25.1440.818" timestamp="1633565617449" />
+    <state x="374" y="240" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.818@0.25.1440.818" timestamp="1633655217389" />
+    <state x="484" y="319" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1633644888844">
+      <screen x="0" y="25" width="1440" height="818" />
+    </state>
+    <state x="484" y="319" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.25.1440.818@0.25.1440.818" timestamp="1633644888844" />
+    <state x="0" y="25" key="CommitChangelistDialog2" timestamp="1633650392457">
+      <screen x="0" y="25" width="1440" height="818" />
+    </state>
+    <state x="0" y="25" key="CommitChangelistDialog2/0.25.1440.818@0.25.1440.818" timestamp="1633650392457" />
     <state x="100" y="125" width="1240" height="618" key="DiffContextDialog" timestamp="1633550689222">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
     <state x="100" y="125" width="1240" height="618" key="DiffContextDialog/0.25.1440.818@0.25.1440.818" timestamp="1633550689222" />
-    <state width="1398" height="167" key="GridCell.Tab.0.bottom" timestamp="1633548403485">
+    <state width="1398" height="262" key="GridCell.Tab.0.bottom" timestamp="1633655450930">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state width="1398" height="167" key="GridCell.Tab.0.bottom/0.25.1440.818@0.25.1440.818" timestamp="1633548403485" />
-    <state width="1398" height="167" key="GridCell.Tab.0.center" timestamp="1633548403484">
+    <state width="1398" height="262" key="GridCell.Tab.0.bottom/0.25.1440.818@0.25.1440.818" timestamp="1633655450930" />
+    <state width="1398" height="262" key="GridCell.Tab.0.center" timestamp="1633655450929">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state width="1398" height="167" key="GridCell.Tab.0.center/0.25.1440.818@0.25.1440.818" timestamp="1633548403484" />
-    <state width="1398" height="167" key="GridCell.Tab.0.left" timestamp="1633548403483">
+    <state width="1398" height="262" key="GridCell.Tab.0.center/0.25.1440.818@0.25.1440.818" timestamp="1633655450929" />
+    <state width="1398" height="262" key="GridCell.Tab.0.left" timestamp="1633655450928">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state width="1398" height="167" key="GridCell.Tab.0.left/0.25.1440.818@0.25.1440.818" timestamp="1633548403483" />
-    <state width="1398" height="167" key="GridCell.Tab.0.right" timestamp="1633548403485">
+    <state width="1398" height="262" key="GridCell.Tab.0.left/0.25.1440.818@0.25.1440.818" timestamp="1633655450928" />
+    <state width="1398" height="262" key="GridCell.Tab.0.right" timestamp="1633655450929">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state width="1398" height="167" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1633548403485" />
+    <state width="1398" height="262" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1633655450929" />
     <state x="398" y="140" key="RollbackChangesDialog" timestamp="1633565589537">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
     <state x="398" y="140" key="RollbackChangesDialog/0.25.1440.818@0.25.1440.818" timestamp="1633565589537" />
-    <state x="320" y="171" key="Vcs.Push.Dialog.v2" timestamp="1633565620538">
+    <state x="320" y="171" key="Vcs.Push.Dialog.v2" timestamp="1633650403630">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.25.1440.818@0.25.1440.818" timestamp="1633565620538" />
-    <state x="421" y="189" width="597" height="490" key="find.popup" timestamp="1633565123861">
+    <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.25.1440.818@0.25.1440.818" timestamp="1633650403630" />
+    <state x="421" y="189" width="627" height="548" key="find.popup" timestamp="1633655202801">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state x="421" y="189" width="597" height="490" key="find.popup/0.25.1440.818@0.25.1440.818" timestamp="1633565123861" />
+    <state x="421" y="189" width="627" height="548" key="find.popup/0.25.1440.818@0.25.1440.818" timestamp="1633655202801" />
     <state x="513" y="327" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1633548825065">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
     <state x="513" y="327" key="git4idea.remote.GitConfigureRemotesDialog/0.25.1440.818@0.25.1440.818" timestamp="1633548825065" />
-    <state x="385" y="167" width="670" height="676" key="search.everywhere.popup" timestamp="1633549460955">
+    <state x="385" y="167" width="670" height="676" key="search.everywhere.popup" timestamp="1633645160278">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state x="385" y="167" width="670" height="676" key="search.everywhere.popup/0.25.1440.818@0.25.1440.818" timestamp="1633549460955" />
+    <state x="385" y="167" width="670" height="676" key="search.everywhere.popup/0.25.1440.818@0.25.1440.818" timestamp="1633645160278" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fastnews/ui/detail/DetailFragment.kt</url>
+          <line>192</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
