@@ -108,7 +108,7 @@
       <recent name="com.fastnews.ui" />
     </key>
   </component>
-  <component name="RunManager" selected="Android JUnit.PostViewModelTest.givenServerResponse200_whenPostData_shouldReturnSuccess">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="PostViewModelTest.givenServerResponse200_whenPostData_shouldReturnSuccess" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="teste_android_reddit.app" />
       <extension name="coverage">
